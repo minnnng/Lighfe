@@ -20,6 +20,6 @@ public class SceneLoader : MonoBehaviour
 #else
         Application.Quit();
 #endif
-        Debug.Log("게임을 종료합니다."); // 실제 빌드에서는 이 로그는 표시되지 않습니다.
+        Debug.Log("게임을 종료합니다.");
     }
 }
