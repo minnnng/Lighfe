@@ -11,4 +11,15 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    // 게임 종료 함수
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+        Debug.Log("게임을 종료합니다."); // 실제 빌드에서는 이 로그는 표시되지 않습니다.
+    }
 }
