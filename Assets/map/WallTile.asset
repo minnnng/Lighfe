@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f363fcf6a0af0c2438cebefb2c91f0c4, type: 3}
   m_Name: WallTile
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: b9ef438332f6be841b3d76dba518ffd0, type: 3}
+  m_Sprite: {fileID: 124695823, guid: ed4edcc13cc60764181cc25a7679faf6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
